@@ -66,20 +66,37 @@ justify-content: center;
 }
 */
 
-/* grid-column span */
+/*  -- grid-column span -- 
 .item:nth-of-type(1)
 {
    background-color: bisque;
    color: black;
 
-   /* grid-column-start: 1;
-     grid-column-end: 2; 
+   --- grid-column-start: 1;
+       grid-column-end: 2; 
    
-     grid-column: 1/ span 3;
-   */
+       grid-column: 1/ span 3;
+   ---
 
    grid-column: 1/3;
 }
+*/
+
+
+/* 
+.item:nth-of-type(3)
+{
+   background-color: rgb(32, 196, 106);
+   color: black;
+
+--- grid-row-start: 1;
+    grid-row-end: 3; ---
+
+    grid-row:1/3;
+   
+}
+*/
+
 
 
 .item
@@ -88,6 +105,5 @@ justify-content: center;
     color: whitesmoke;
     font-size: 20px;
     padding: 20px;
-    border: skyblue 1px solid;
-    
+    border: skyblue 1px solid;  
 }
