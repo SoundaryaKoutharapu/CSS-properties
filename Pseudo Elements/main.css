@@ -32,3 +32,38 @@ p::after
    padding: 20px;
   
 }
+
+.intro
+{
+    margin: 30px;
+    color: rgb(17, 181, 36);
+}
+
+blockquote
+{
+    color: rgb(180, 45, 67);
+    font-size: large;
+    font-family: 'Lucida Sans';
+}
+
+.intro::after
+{
+    content: url('Dog.jpg');   
+    height: 16px; 
+    width: 33px;  
+}
+
+blockquote::before
+{
+    content: open-quote;
+    font-size: 2rem;
+    color: blue;
+}
+
+
+blockquote::after
+{
+    content:close-quote;
+    font-size: 2rem;
+    color: blue;
+}
