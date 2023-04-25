@@ -11,16 +11,17 @@ p
     height: 100vh;
     align-items: center;
     justify-content: center;
-    font-family: Impact;
-    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 
+/*
 p::before
 {
     content: " hello ";
     display: block;
     background-color: red;
-    padding: 20px;
+    padding: 10px;
     
 }
 
@@ -29,13 +30,14 @@ p::after
    content: " hi ";
    display: block;
    background-color: rgb(0, 255, 38);
-   padding: 20px;
+   padding: 10px;
   
 }
+*/
 
 .intro
 {
-    margin: 30px;
+    margin: 20px;
     color: rgb(17, 181, 36);
 }
 
@@ -49,8 +51,9 @@ blockquote
 .intro::after
 {
     content: url('Dog.jpg');   
-    height: 16px; 
-    width: 33px;  
+    display: block;
+    max-width: 3px;
+    
 }
 
 blockquote::before
@@ -66,4 +69,16 @@ blockquote::after
     content:close-quote;
     font-size: 2rem;
     color: blue;
+}
+
+
+a[data-tool-tip]
+{
+    position: relative;
+}
+
+a[data-tool-tip]::after
+{
+    content: attr(data-tool-tip);
+    padding: 15px;
 }
