@@ -3,7 +3,7 @@
 {
     background-color: rgb(140, 140, 175);
     width: 800px;
-    height: 250px;
+    height: 900px;
     padding-top: 10px;
     color: #faf4f4;
     font-size: larger;
@@ -22,8 +22,12 @@
     color: rgb(225, 18, 18);
     font-size: larger;
     font-family: arial;
-    position: relative;
-    left: 20%;
+     position: sticky;
+     top: 0;  
+   /* position: fixed;
+    top: 0;
+    left: 0;  */
+   
 }
 
 .child-2
@@ -37,8 +41,8 @@
     color: #e1f1bb;
     font-size: larger;
     font-family: arial;
-    position: absolute;
-    top: 150px;
+  /* position: absolute;
+    top: 150px;  */
 }
 
 .child-3
@@ -51,4 +55,22 @@
     color: #eef7da;
     font-size: larger;
     font-family: arial;
+  /*  position: fixed;
+    top: 0;
+    left: 0;  */
+}
+
+.child-4
+{
+    background-color: rgb(235, 216, 7);
+    width: 500px;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #0505ef;
+    font-size: larger;
+    font-family: arial;
+    /* position: relative;
+    left: 20%; */
 }
