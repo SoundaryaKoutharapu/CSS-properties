@@ -21,5 +21,12 @@ div
     transform: rotateY(50deg);
     transform: rotateZ(20deg);
   */ 
-  
+
+   /* Transform - Scale */ 
+     transform: scale(2);
+     transform: scale(180%);
+     transform: scaleX(2);
+     transform: scaleY(2);
+    
+   
 }
