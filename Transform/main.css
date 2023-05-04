@@ -1,0 +1,25 @@
+
+
+div
+{
+    height: 200px;
+    width: 200px;
+    background-color: chartreuse;
+    margin: 250px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(137, 7, 135);
+    font-size: 3rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 9px rgba(244, 199, 221, 0.8);
+
+  /* Transform - Rotate  
+    transform: rotate(30deg);
+    transform: rotateX(70deg);
+    transform: rotateY(50deg);
+    transform: rotateZ(20deg);
+  */ 
+  
+}
