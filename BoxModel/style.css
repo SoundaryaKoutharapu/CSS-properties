@@ -1,0 +1,37 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.container
+{
+    border:  4px dotted rgb(221, 15, 32);
+    /* border-top-width: 5px ;
+    border-left: 3px solid rgb(6, 220, 84); */
+    font-size: 1rem;
+    padding: 2rem;
+    margin: 2rem;
+    outline: 4px solid green;
+    outline-offset: 1px;
+    /* border-radius: 50%; */
+    /*   
+        margin 
+     margin-top: 2rem; 
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin: 2rem 4rem 6rem; (T, lR, B)
+    margin: 2rem 4rem; (TB, LR)
+    margin: 2rem; (TBLR)
+    */
+
+    /* 
+        Padding 
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 2rem; 
+    */
+}
